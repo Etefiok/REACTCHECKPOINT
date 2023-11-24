@@ -11,3 +11,171 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  background-color: black;
+  /* background-image:url('image.png/pexels1.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 80px;
+   */
+ 
+
+}
+
+.compamylogo{
+ 
+  /* border: 1px solid red; */
+  margin-left: 20px;
+
+  
+}
+
+.manuebar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap:20px; */
+  /* border: 1px solid blue; */
+  /* margin-right: 20px;
+  padding-top: 8px; */
+      
+}
+.manuebar a{
+  display: flex;
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  transition: 0.5s;
+  
+  /* margin-bottom:100px; */
+  /* border: 1px solid red; */
+}
+.manuebar a:hover{
+  color:brown;
+  transition: 1s;
+  letter-spacing: 2px;
+}
+
+
+.Herocontainer{
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid green; */
+  height: 22rem;
+  /* background-image: url('image.png/pexels3.jpg');
+  background-repeat:repeat; */
+  /* background-size:20% 100px ; */
+  /* filter: brightness(150%); */
+ 
+}
+
+.contactform{
+  text-align: center;
+ 
+  font-weight: bold;
+  
+}
+
+
+.Herosection1{
+  
+  /* border: 1px solid red; */
+  height: 20rem;
+  width:fit-content;
+ line-height: 1.5;
+ margin-top: 20px;
+ background-color: rgb(230, 226, 222);
+ border: 5px solid rgb(230, 226, 222);
+ 
+}
+
+.submit{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.Herosection2{
+  
+  /* border: 1px solid red; */
+  height: 20rem;
+  width:fit-content;
+  justify-content: space-between;
+}
+
+.Heroimage h1{
+text-align: center;
+
+}
+
+.Heroimage p{
+text-align: center;
+}
+
+.Heroimage img{
+  width:180px;
+  margin: 10px;
+  /* border: 1px solid green; */
+  
+}
+
+.buynow{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.Herosection3{
+  
+  border: 1px solid red;
+  height: 40rem;
+  width:16.6rem;
+  background-color: antiquewhite;
+  margin-top: 20px;
+  justify-content: center;
+
+}
+
+
+.Herosection3 img{
+  height: 15rem;
+  /* width:fit-content; */
+  /* padding-top: 20px; */
+}
+
+.buttoncome{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  color: aliceblue;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+
+}
+
+.buttoncome :hover{
+  cursor:grabbing;
+}
+
+.Herosection3 p{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid red;
+  text-align: center;
+}
